@@ -11,12 +11,9 @@ namespace Jan9
         static void Main(string[] args)
         {
             string firstName, lastName, coloR;
-            string anyQuit = "quit";
-
+          
 
             //part 1
-
-
             Console.WriteLine("What's your first name?");
             firstName = Console.ReadLine();
 
@@ -39,6 +36,7 @@ namespace Jan9
 
             {
                 Console.WriteLine("R-Red, O-Orange, Y-Yellow, G-Green, B-Blue, I-Indigo, V-Violet");
+
                 Console.WriteLine("\n"+"What's your favorite ROYGBIV color?");
                 coloR = Console.ReadLine();
 
@@ -55,11 +53,13 @@ namespace Jan9
             //part 2
             // If the user’s age is an odd number, then they will retire in ____ years, or ___ years if their age is an even number.
             if (age % 2 == 0)
+
             {
                 Console.WriteLine("You will retire in 5 years.");
             }
 
             else
+
             {
                 Console.WriteLine("You will retire in 10 years!");
             }
@@ -149,14 +149,19 @@ namespace Jan9
                 Console.WriteLine("You have $15,000 in the bank");
 
             }
+
             else if (month >= 5 || month <= 8)
+
             {
                 Console.WriteLine("You have $5,000 in the bank");
             }
+
             else if (month >=9 || month <= 12)
+
             {
                 Console.WriteLine("You have $2 in the bank");
             }
+
             else
 
             {
