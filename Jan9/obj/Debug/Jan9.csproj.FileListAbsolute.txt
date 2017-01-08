@@ -1,0 +1,6 @@
+c:\users\chue_\documents\visual studio 2015\Projects\Jan9\Jan9\bin\Debug\Jan9.exe.config
+c:\users\chue_\documents\visual studio 2015\Projects\Jan9\Jan9\obj\Debug\Jan9.csprojResolveAssemblyReference.cache
+c:\users\chue_\documents\visual studio 2015\Projects\Jan9\Jan9\bin\Debug\Jan9.exe
+c:\users\chue_\documents\visual studio 2015\Projects\Jan9\Jan9\bin\Debug\Jan9.pdb
+c:\users\chue_\documents\visual studio 2015\Projects\Jan9\Jan9\obj\Debug\Jan9.exe
+c:\users\chue_\documents\visual studio 2015\Projects\Jan9\Jan9\obj\Debug\Jan9.pdb
