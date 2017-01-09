@@ -109,7 +109,7 @@ namespace Jan9
 
             coloR = coloR.ToLower();
 
-            if (coloR == "red" || coloR == "orange" || coloR == "yellow" || coloR == " blue" || coloR == "indigo" || coloR == "violet")
+            if (coloR == "red" || coloR == "orange" || coloR == "yellow" || coloR == "blue" || coloR == "indigo" || coloR == "violet")
 
                 switch (coloR)
 
