@@ -22,7 +22,7 @@ namespace Jan9
 
             Console.WriteLine("\n"+"How old are you?");
             int age = int.Parse(Console.ReadLine());
-
+           
             Console.WriteLine("\n"+"Enter birth month as a number?");
             int month = int.Parse(Console.ReadLine());
 
@@ -46,7 +46,8 @@ namespace Jan9
             int sibs = int.Parse(Console.ReadLine());
 
 
-            Console.WriteLine("\n"+firstName + " " + lastName);
+            
+            Console.WriteLine("\n"+firstName + " " + lastName );
 
 
 
@@ -62,6 +63,7 @@ namespace Jan9
 
             {
                 Console.WriteLine("You will retire in 10 years.");
+
             }
 
 
