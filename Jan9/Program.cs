@@ -14,16 +14,16 @@ namespace Jan9
           
 
             //part 1
-            Console.WriteLine("What's your first name?");
+            Console.WriteLine("What's your First Name?");
             firstName = Console.ReadLine();
 
-            Console.WriteLine("\n"+"What is your last name?");
+            Console.WriteLine("\n"+"What is your Last Name?");
             lastName = Console.ReadLine();
 
             Console.WriteLine("\n"+"How old are you?");
             int age = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("\n"+"Enter birth month in number?");
+            Console.WriteLine("\n"+"Enter birth month as a number?");
             int month = int.Parse(Console.ReadLine());
 
             Console.WriteLine("\n"+"What's your favorite ROYGBIV COLOR? If don't know what ROYGBIV is, please enter help");
@@ -61,7 +61,47 @@ namespace Jan9
             else
 
             {
-                Console.WriteLine("You will retire in 10 years!");
+                Console.WriteLine("You will retire in 10 years.");
+            }
+
+
+            // If the user’s number of siblings is 0, then they will have a vacation home in __(location), 
+            //or 1 then they will have a vacation home in __(location), or 2 then they will have a vacation home in ___ (location)
+            //, or 3 then they will have a vacation home in ___ (location), 
+            //or more than 3 then they will have a vacation home in ____ (location). 
+            //If the user enters anything other than a number greater than or equal to 0, they should get a bad vacation home!
+
+            if (sibs == 0)
+            {
+                Console.WriteLine("You will have a vacation home in Greece.");
+            }
+
+            else if (sibs == 1)
+            {
+                Console.WriteLine("You will have a vacation home in China.");
+
+            }
+            else if (sibs == 2)
+
+            {
+                Console.WriteLine("You will have a vacation home in Florida.");
+            }
+
+            else if (sibs == 3)
+            {
+                Console.WriteLine("You will have a vacation home in Japan.");
+            }
+
+            else if (sibs >= 3)
+            {
+                Console.WriteLine("You will have a vacation home in Cleveland, Ohio.");
+
+            }
+
+            
+            else if (sibs <=0)
+            {
+                Console.WriteLine("You will have a vacation in Afghanistan, good luck!");
             }
 
 
@@ -75,27 +115,27 @@ namespace Jan9
 
                 {
                     case "red":
-                        Console.WriteLine("You will be driving red audi to work tomorrow");
+                        Console.WriteLine("You will be driving a red audi to work tomorrow.");
                         break;
 
                     case "orange":
-                        Console.WriteLine("You will be taking an orange helicopter to starbucks tomorrow");
+                        Console.WriteLine("You will be taking an orange helicopter to starbucks tomorrow.");
                         break;
 
                     case "yellow":
-                        Console.WriteLine("You will be driving a chevy camaro to see your friends tomorrow");
+                        Console.WriteLine("You will be driving a chevy camaro to see your friends tomorrow.");
                         break;
 
                     case "blue":
-                        Console.WriteLine("You will be on a plane to Hawaii tomorrow");
+                        Console.WriteLine("You will be on a plane to Hawaii tomorrow.");
                         break;
 
                     case "indigo":
-                        Console.WriteLine("You will be riding a scooter to get groceries tomorrow");
+                        Console.WriteLine("You will be riding a scooter to get groceries tomorrow.");
                         break;
 
                     case "violet":
-                        Console.WriteLine("You will be driving a mini cooper next friday going to Canada");
+                        Console.WriteLine("You will be driving a mini cooper next friday going to Canada.");
                         break;
 
                     default:
@@ -105,67 +145,36 @@ namespace Jan9
 
                 }
 
-            // If the user’s number of siblings is 0, then they will have a vacation home in __(location), 
-            //or 1 then they will have a vacation home in __(location), or 2 then they will have a vacation home in ___ (location)
-            //, or 3 then they will have a vacation home in ___ (location), 
-            //or more than 3 then they will have a vacation home in ____ (location). 
-            //If the user enters anything other than a number greater than or equal to 0, they should get a bad vacation home!
-            if (sibs == 0)
-            {
-                Console.WriteLine("You will have a vacation home in Greece");
-            }
-            else if (sibs == +1)
-
-            {
-                Console.WriteLine("You will have a vacation home in China");
-
-            }
-            else if (sibs == 2)
-
-            {
-                Console.WriteLine("You will have a vacation home in Florida");
-            }
-            else if (sibs == +2)
-            {
-                Console.WriteLine("You will have a vacation home in Cleveland, Ohio");
-            }
-            else if (sibs == +3)
-            {
-                Console.WriteLine("You will have a vacation home in Japan");
-
-            }
-            else if (sibs == 0 || sibs>= 3)
-            {
-                Console.WriteLine("I can't comment");
-            }
+          
 
 
             // If the user’s birth month is 1-4, they will have $____ in the bank; 
             //if the user's birth month is 5-8, they will have $____ in the bank; 
             //and if it is 9-12, then they will have $____ in the bank. If the user enters something other 
             //than 01-12 as their birth month, they will have $0.00 in the bank.
+
             if (month >= 1 || month <= 4)
             {
-                Console.WriteLine("You have $15,000 in the bank");
+                Console.WriteLine("You will have $15,000 in the bank.");
 
             }
 
             else if (month >= 5 || month <= 8)
 
             {
-                Console.WriteLine("You have $5,000 in the bank");
+                Console.WriteLine("You will have $5,000 in the bank.");
             }
 
             else if (month >=9 || month <= 12)
 
             {
-                Console.WriteLine("You have $2 in the bank");
+                Console.WriteLine("You will have $2 in the bank.");
             }
 
             else
 
             {
-                Console.WriteLine("You have $0 in the bank");
+                Console.WriteLine("You have $0 in the bank.");
             }
            
 
